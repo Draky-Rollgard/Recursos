@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://picsum.photos/1200/800') no-repeat center/cover;
+    font-family: Arial, sans-serif;
+}
+
+.glass {
+    width: 300px;
+    padding: 2rem;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.15); /* Transparência */
+    -webkit-backdrop-filter: blur(10px); /* Suporte Safari */
+    backdrop-filter: blur(10px); /* Desfoque do fundo */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Borda suave */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Sombra */
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
